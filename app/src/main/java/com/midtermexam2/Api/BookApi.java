@@ -20,7 +20,7 @@ import java.util.List;
 
 public class BookApi {
 
-    public static final String API_URL ="http://172.17.3.51:5896/api/books";
+    public static final String API_URL ="http://joseniandroid.herokuapp.com";
     public static final String BOOK_ID = "_id";
     public static final String BOOK_TITLE = "title";
     public static final String BOOK_GENRE = "genre";
@@ -49,31 +49,10 @@ public class BookApi {
 //
 //    final String city;
 //    final String country;
-//    final String icon;
-//    final String description;
-//    final double temperature;
-//    final long humidity;
-//    final long pressure;
-//
-//    try {
-//        // 1) Convert the json string response into an actual JSON Object
-//        JSONObject jsonObject = new JSONObject(json);
-//
-//        // 2) Get the status code
+//    final St
 //        int statusCode = jsonObject.getInt(OWM_CODE);
 //
-//        // 3) Check if the HTTP Status Code if it's valid or not
-//        if (statusCode == SUCCESS_CODE) {
-//            // 4) Retrieve the individual bits of data that we need for our Weather model.
-//            // 5) Get the city name from the base jsonObject
-//            city = jsonObject.getString(OWM_CITY_NAME);
-//
-//            // 6) Get the country name from "sys" object
-//            JSONObject sys = jsonObject.getJSONObject(OWM_SYS);
-//            country = sys.getString(OWM_COUNTRY);
-//
-//            // 7) Get temperature, humidity, and pressure under "main" object
-//            JSONObject main = jsonObject.getJSONObject(OWM_MAIN);
+//   ject(OWM_MAIN);
 //            temperature = main.getDouble(OWM_TEMPERATURE);
 //            humidity = main.getLong(OWM_HUMIDITY);
 //            pressure = main.getLong(OWM_PRESSURE);
